@@ -1,0 +1,15 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+  color: hsl(170, 100%, 26%);
+}
+p {
+  font-size: 1.8rem;
+}
