@@ -1,0 +1,16 @@
+:root {
+  --primary-color: hsl(170, 100%, 26%);
+  font-size: 62.5%; << aqui o tamanho da fonte esta em 10 quando esta em 100% é 16
+}
+esse arquivo acima é para modificações em geral para poder usar.
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem; <<< aqui a fonde é 16 no corpo usando rem apos modificar o root  
+}
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+p {
+  font-size: 1.8rem;
+}
