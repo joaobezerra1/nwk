@@ -96,3 +96,15 @@ header img {
   margin-inline: auto;
   object-position: 0 2rem;
 }
+
+header::before {
+  content: '';
+  width: 12rem;
+  height: 12rem;
+  background-color: black;
+  display: block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
