@@ -7,6 +7,8 @@
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+  --brand-baige: hsl(39, 100%, 80%);
+
   font-size: 62.5%;
 }
 
@@ -55,7 +57,20 @@ button {
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
-  
+
   margin-right: auto;
   margin-left: auto;
+}
+
+.stats {
+  width: 32.7rem;
+  height: 47rem;
+
+  margin-inline: auto;
+
+  background-color:var(--brand-baige);
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  
 }
